@@ -4,8 +4,8 @@ import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.OUT)
 
-#Stability happens around 80Hz with 1% deviation
-p = GPIO.PWM(17, 500)
+#Stability happens around 5kHz with 1% deviation
+p = GPIO.PWM(17, 5000)
 p.start(0)
 
 x=0
