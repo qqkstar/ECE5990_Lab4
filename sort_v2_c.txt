@@ -1,0 +1,16 @@
+
+ Performance counter stats for './sort_v2':
+
+      30177.465091      task-clock (msec)         #    1.000 CPUs utilized          
+               145      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                82      page-faults               #    0.003 K/sec                  
+    27,158,764,568      cycles                    #    0.900 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+    18,847,426,209      instructions              #    0.69  insns per cycle        
+     1,517,231,672      branches                  #   50.277 M/sec                  
+           770,444      branch-misses             #    0.05% of all branches        
+
+      30.187268502 seconds time elapsed
+
